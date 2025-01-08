@@ -96,7 +96,7 @@
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 0;
-  margin-top: -40px; /* Increased negative margin to move it further up */
+  margin-top: -30px; /* Increased negative margin to move it further up */
 }
 
 .recipe-details h3 {
@@ -129,7 +129,6 @@
 
 
 .details-button {
-  position: absolute;
   right: 8px;
   bottom: 8px;
   background-color: #66bb6a;
@@ -139,8 +138,11 @@
   padding: 6px 12px;
   font-size: 14px;
   cursor: pointer;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px 0px #00000040;  /* Drop shadow effect added */
+  width: 100px;
+  height: 30px;
 }
+
 
 .footer-nav {
   display: flex;
