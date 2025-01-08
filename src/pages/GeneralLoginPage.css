@@ -1,0 +1,84 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+  }
+  
+  .login-page .logo {
+    width: 90%;
+    margin-bottom: 40px;
+    margin-top: -90px;
+
+  }
+  
+  .login-page .buttons-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 20px;
+    gap: 20px;
+  }
+  
+  .login-page .login-button {
+    font-family: "Sora-Bold", Helvetica;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #463c35;
+    border: none;
+    width: 80%;
+    height: 80px;
+    transition: background-color 0.3s;
+    position: relative;
+  }
+  
+  .login-page .user-button {
+    background-color: #66BB6A;
+  }
+  
+  .login-page .expert-button {
+    background-color: #348238;
+  }
+  
+  .login-page .guest-button {
+    margin-top: 65px;
+    background-color: #87BF56;
+  }
+  
+  .login-page .login-button:hover {
+    opacity: 0.8;
+  }
+  
+  .login-page .button-description {
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #463c35;
+    text-align: center;
+    width: 80%;
+    
+  }
+  
+  .login-page .user-description {
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  
+  .login-page .expert-description {
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  
+  .login-page .guest-description {
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  

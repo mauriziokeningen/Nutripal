@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+
+.personal-quiz-page-9 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .personal-quiz-page-9  .logo-image {
+    transform: scale(0.8); 
+    position: relative; 
+    top: -100px;
+  }
+  .personal-quiz-page-9  .hooray-image{
+    position: relative;
+    top: -120px;
+  }
+  .personal-quiz-page-9  .description{
+    font-family: 'Roboto Slab', sans-serif;
+    color: #463c35;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    top: -70px;
+  }
+  .personal-quiz-page-9 .started-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    width: 80%; 
+    height: 100px;
+    padding: 15px 0;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #463c35;
+    background-color: #87bf56; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; 
+    bottom: 50px;
+    left: 45px;
+
+  }
+
+  .personal-quiz-page-9 .started-button:hover {
+    background-color: #6da945; 
+  }
+
+  .personal-quiz-page-9 .button-icon{
+    position: relative;
+    right: 0px;
+    transform: scale(1.4);
+  }

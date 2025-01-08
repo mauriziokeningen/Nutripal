@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+.user-registration-container {
+    position: relative;
+    background: #F2F2F2;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .user-registration-container .top-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .user-registration-container .back-button {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    cursor: pointer;
+    z-index: 5;
+  }
+  
+  .user-registration-container .green-bg {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 300px; 
+    width: 100%;
+    z-index: 0;
+  
+  }
+  
+  .user-registration-container .main-title {
+    text-align: center;
+    margin-top: 120px;
+    z-index: 2;
+    font-size: 42px;
+    position: relative;
+    top: -90px;
+    color: #F2F2F2;
+  }
+  
+  
+  .user-registration-container .input-section {
+    margin: 30px auto;
+    width: 80%;
+  }
+  
+  .user-registration-container .input-label {
+    display: block;
+    color: #463C35;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 5px;
+  }
+  
+  .user-registration-container .input-field {
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    background: #66BB6A;
+    color: #F2F2F2; 
+    border: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .user-registration-container .input-field::placeholder {
+    color: #F2F2F2;
+    font-family:  "Roboto Slab", Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  
+  .user-registration-container .terms-conditions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-registration-container .checkbox {
+    margin-right: 10px;
+  }
+  
+  .user-registration-container .terms-conditions label {
+    color: #463C35;
+    font-size: 16px;
+  }
+  
+  .user-registration-container .register-section {
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+  
+  .user-registration-container .register-button {
+    height: 150px;
+    width: 300px;
+    position: relative;
+    top: 90px;
+    left: 90px;
+    border-radius: 50%;
+    background-color: #1C4B29;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    line-height: 1.2;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .user-registration-container .register-button:hover {
+    background-color: #66BB6A;
+  }
+  

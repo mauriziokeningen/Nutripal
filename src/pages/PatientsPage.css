@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .patient-page {
+    width: 393px; /* width from figma */
+    height: 930px; /* Height from Figma */
+    margin: 0 auto; /* center page */
+    background-color: #F2F2F2; /* color from Figma */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }

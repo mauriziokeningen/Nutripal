@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+.email-verification-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/email_bg.png');
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  .email-verification-page .verification-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .email-verification-page .verified-icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .email-verification-page .verified-title {
+    font-size: 2.3rem;
+    color: #463c35;
+    margin-bottom: 10px;
+    font-family: "Sora-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .email-verification-page .verified-message {
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #463c35;
+    margin-bottom: 20px;
+  }
+  
+  .email-verification-page .dashboard-button {
+    position: relative;
+    padding: 20px 30px;
+    width: 90%;
+    height: 30%;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(90deg, #66BB6A, #1C4B29);
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .email-verification-page .dashboard-button:hover {
+    background: linear-gradient(90deg, #1C4B29, #66BB6A);
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+  }

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+
+.personal-quiz-page-2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.personal-quiz-page-2 .quiz-container-2 {
+  background-color: #ffffff;
+  height: 930px;
+  position: relative;
+  width: 393px;
+}
+
+.personal-quiz-page-2 .quiz-title-2 {
+  color: transparent;
+  font-family: "Sora-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 245px;
+}
+
+.personal-quiz-page-2 .text-wrapper {
+  color: #463c35;
+}
+
+.personal-quiz-page-2 .highlighted-text {
+  color: #87bf56;
+}
+
+.personal-quiz-page-2 .instruction-text {
+  color: #463c35;
+  font-family: "Roboto Slab-Bold", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 310px;
+  width: 325px;
+}
+
+.personal-quiz-page-2 .name-input-container {
+  background-color: #87bf56;
+  border-radius: 20px;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  bottom: 350px;
+  width: 340px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.personal-quiz-page-2 .name-input {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 80%; 
+    font-size: 30px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold; 
+    text-align: center;
+    color: #547a33;
+    outline: none;
+   
+}
+
+.personal-quiz-page-2 .name-label {
+    color: #87bf56; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+.personal-quiz-page-2 .progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    position: relative;  
+  }
+  
+  .personal-quiz-page-2 .progress-one {
+    width: 100px; 
+    height: 100px; 
+    background-color: white; 
+    object-fit: cover; 
+    position: absolute; 
+  }
+  
+  .personal-quiz-page-2 .progress-text {
+    color: #463c35; 
+    font-family: "Roboto Slab-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    z-index: 1;
+  }
+  
+
+/* Arrow image */
+.personal-quiz-page-2 .arrow-button {
+  position: absolute;
+  top: 771px;
+  left: 17px;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.personal-quiz-page-2 .arrow-left-circle {
+  height: 71px;
+  width: 71px;
+  object-fit: cover; 
+}

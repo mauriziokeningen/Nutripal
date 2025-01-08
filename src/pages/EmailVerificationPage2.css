@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+.verify-email-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../assets/email_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.verify-email-page .verify-container {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px 40px;
+  text-align: center;
+  margin-top: 400px;
+  width: 100%;
+  height: 60%;
+}
+
+.verify-email-page .title {
+  font-size: 2.4rem;
+  font-family: "Sora-Bold", Helvetica;
+  color: #463c35;;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.verify-email-page .subtitle {
+  font-family: "Roboto Slab", Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #463c35;
+  margin-bottom: 30px;
+}
+
+.verify-email-page .subtitle span {
+  font-weight: bold;
+  color: #463c35;
+}
+
+.verify-email-page .code-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.verify-email-page .code-input {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+}
+
+.verify-email-page .code-input:focus {
+  outline: none;
+  border-color: #66BB6A;
+}
+
+.verify-email-page .resend-code {
+  font-family: "Roboto Slab", Helvetica, sans-serif;
+  font-weight: 600;
+  position: relative;
+  font-size: 1.5rem;
+  color: #463c35;
+  background: none;
+  border: none;
+  width: 80%;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+.verify-email-page .resend-code:hover {
+  color: #1C4B29;
+}
+
+.verify-email-page .confirm-button {
+  position: relative;
+  width: 100%;
+  height: 15%;
+  font-family: "Roboto Slab", Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(90deg, #66BB6A, #1C4B29);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+  margin: 20px auto 0 auto;
+}
+
+.verify-email-page .confirm-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.verify-email-page .back-button {
+    background-color: transparent;
+    left: -160px;
+    cursor: pointer;
+  }
+  

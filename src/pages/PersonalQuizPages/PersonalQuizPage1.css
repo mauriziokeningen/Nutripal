@@ -1,0 +1,86 @@
+.personal-quiz-page {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    font-family: "Sora", sans-serif;  
+    font-weight: 700;
+  }
+  
+  .personal-quiz-page .quiz-container {
+    background-color: #f2f2f2;
+    height: 930px;
+    position: relative;
+    max-width: 393px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .personal-quiz-page .quiz-header {
+    height: 584px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 361px;
+  }
+  
+  .personal-quiz-page .quiz-title {
+    color: #463c35;
+    font-family: "Sora-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 294px;
+    width: 361px;
+  }
+  
+  .personal-quiz-page .logo {
+    width: 100%;
+    max-width: 240px; 
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.9);
+  }
+  
+  .personal-quiz-page .quiz-footer {
+    background-color: #87bf56;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 111px;
+    left: 20px;
+    position: absolute;
+    top: 654px;
+    width: 340px;
+}
+  
+  .personal-quiz-page .cta-text {
+    color: #463c35;
+    font-family: "Sora-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 66px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 26px;
+  }
+  
+  .personal-quiz-page .arrow-icon {
+    height: 54px !important;
+    left: 272px !important;
+    position: absolute !important;
+    top: 30px !important;
+    width: 67px !important;
+  }

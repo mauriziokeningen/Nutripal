@@ -1,0 +1,61 @@
+*{
+    font-family: 'Roboto Slab', serif; /* Font style */
+    color: #463C35;
+}
+.card-container {
+    display: flex;
+    box-sizing: border-box;
+    width: 335px;
+    height: 125px;
+    background-color: #B4D598;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+button{
+    height: 22px;
+    width: 96px;
+    background-color: #87BF56;
+    border-radius: 30px;
+    position: absolute; 
+    bottom: 5px; 
+    right: 10px; 
+    color: #463C35; 
+    font-size: 14px; 
+    cursor: pointer;
+    border: none;
+    font-weight: medium;
+}
+
+.image-container {
+    width: 99px; 
+    height: 97px; 
+    border-radius: 50%; /* make it circle */
+    overflow: hidden; /* cut the avatar to be in this circle */
+    margin-right: 5px; /* distance with text */
+    margin-left: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* shadow */
+    flex-shrink: 0; /* make sure the image not te be smaller*/
+}
+.text-container {
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left: 10px; 
+}
+
+.image-container img {
+    width: 100%; /* make sure width covering all container */
+    height: 100%; /* same */
+    object-fit: cover; /* adjust the image with the same rate  */
+}
+h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+p {
+    font-size: 16px;
+    margin-top: 3px;
+}
+  

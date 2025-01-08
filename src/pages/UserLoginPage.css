@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+.user-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #66bb6a;
+  }
+  
+  /* Title Section */
+  .user-login-container .title-container {
+    text-align: center;
+    position: relative;
+    top: -80px;
+    margin-bottom: 15px;
+  }
+  
+  .user-login-container .main-title {
+    font-size: 75px;
+    font-weight: 600;
+    font-family: "Sora-Bold", Helvetica;
+    color: #463c35;
+  }
+  
+  .user-login-container .subtitle {
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #463c35;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  /* Input Section */
+  .user-login-container .input-section {
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+    top: -23px;
+  }
+  
+  .user-login-container .input-field {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 16px;
+    color: #463c35;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .user-login-container .forgot-password {
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    margin-top: 10px;
+    position: relative;
+    left: 215px;
+    top: -10px;
+    color: #463c35;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .user-login-container .input-field::placeholder {
+    position: relative;
+    left: 10px;
+    font-size: 20px; 
+    color: #9C9B9A; 
+    font-weight: 500; 
+    opacity: 1; 
+  }
+  
+  /* Button Section */
+  .user-login-container .button-section {
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    top: 70px;
+  }
+  
+  .user-login-container .login-button,
+  .user-login-container .register-button {
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 550;
+    cursor: pointer;
+    height: 70px;
+  }
+  
+  .user-login-container .login-button {
+    position: relative;
+    background-color: #463c35;
+    color: #f2f2f2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .user-login-container .register-button {
+    position: relative;
+    background-color: #463c35;
+    color: #f2f2f2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* First Time User Prompt */
+  .user-login-container .button-section p {
+    position: relative;
+    top: -50px;
+    left: 30px;
+    color: #463c35;
+    font-size: 14px;
+    font-weight: 550;
+    text-align: center;
+  }
+  

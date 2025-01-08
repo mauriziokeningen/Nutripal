@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+  
+  .personal-quiz-page-3 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .personal-quiz-page-3 .progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    position: relative;
+  }
+  
+  .personal-quiz-page-3 .progress-image {
+    width: 100px; 
+    height: 100px; 
+    background-color: white; 
+    object-fit: cover; 
+    position: absolute; 
+  }
+  
+  .personal-quiz-page-3 .progress-text {
+    color: #463c35; 
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .personal-quiz-page-3 .gender-question {
+    color: #463c35;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    width: 325px;
+  }
+
+  .personal-quiz-page-3 .gender-label {
+    color: #87bf56; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  }
+  
+  .personal-quiz-page-3 .gender-description {
+    color: #463c35;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 17px;
+    font-weight: 750;
+    text-align: center;
+    left: 50px;
+    position: absolute;
+    top: 300px;
+    width: 340px;
+  }
+  
+  .personal-quiz-page-3 .gender-button {
+    background-color: #87bf56;
+    border: 0px none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #00000040;
+    left: 65px !important;
+    position: absolute;
+    width: 300px !important;
+  }
+  
+  .personal-quiz-page-3 .female-button {
+    height: 98px;
+    top: 415px;
+    width: 98px;
+  }
+  
+  .personal-quiz-page-3 .male-button {
+    height: 98px;
+    top: 546px;
+    width: 98px;
+  }
+  
+  .personal-quiz-page-3 .agender-button {
+    height: 98px;
+    top: 680px;
+    width: 98px;
+  }
+  
+  .personal-quiz-page-3 .arrow-button {
+    position: absolute;
+    top: 780px;
+    left: 1px;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .personal-quiz-page-3 .arrow-left-circle {
+    height: 71px;
+    width: 71px;
+    object-fit: cover; 
+  }
+  
+  
