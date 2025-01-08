@@ -1,10 +1,13 @@
 import React from "react";
 import "./Recipes1.css";
-
 import BananaOatmealPancakes from "../assets/BananaOatmealPancakes.jpg";
 import AvocadoChickenSalad from "../assets/AvocadoChickenSalad.jpg";
 import BeefVegetableStew from "../assets/BeefVegetableStew.jpg";
 import BeefVegetablePasta from "../assets/BeefVegetablePasta.jpeg";
+import HeartHollow from "../assets/HollowHeart.png"; // Import the heart image
+import Filters from "../assets/Filters.png"; // Import the Filters image
+import WhiteUser from "../assets/WhiteUser.png"; // Import the user image
+import WhiteGear from "../assets/WhiteGear.png"; // Import the gear image
 
 function Recipes1() {
   const recipes = [
@@ -35,19 +38,28 @@ function Recipes1() {
   ];
 
   const totalCalories = 2000;
-  const remainingCalories = 1100;
+  const remainingCalories = 800;
   const progress = (remainingCalories / totalCalories) * 100;
 
   return (
     <div className="app">
       {/* Header Section */}
       <div className="header">
+        {/* User Image */}
+        <img src={WhiteUser} alt="User" className="user-image" />
+        {/* Gear Image */}
+        <img src={WhiteGear} alt="Settings" className="gear-image" />
+
         <div className="search-bar-box">
           <input
             type="text"
             placeholder="Search Any Recipe..."
             className="search-bar"
           />
+          {/* Rectangle with Filters Image */}
+          <div className="rectangle">
+            <img src={Filters} alt="Filters Icon" />
+          </div>
         </div>
 
         {/* Progress Bar */}
@@ -66,12 +78,17 @@ function Recipes1() {
             <div className="recipe-details">
               <h3>{recipe.title}</h3>
               <p>{recipe.description}</p>
-              <button
-                className="details-button"
-                onClick={() => alert(`See details for ${recipe.title}`)}
-              >
-                See Details
-              </button>
+              <div className="details-button-container">
+                <button
+                  className="details-button"
+                  onClick={() => alert(`See details for ${recipe.title}`)}
+                >
+                  See Details
+                </button>
+                <div className="heart-circle">
+                  <img src={HeartHollow} alt="Heart" />
+                </div>
+              </div>
             </div>
           </div>
         ))}
